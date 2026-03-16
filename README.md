@@ -68,7 +68,7 @@ Celery is responsible for:
 * triggering email refresh
 * coordinating scraping tasks
 
-Using Celery prevents blocking the API while waiting for external web interactions.
+In theory, Using Celery prevents blocking the API while waiting for external web interactions(not the case for /email/refresh endpoint for now).
 
 ---
 
