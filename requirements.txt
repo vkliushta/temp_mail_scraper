@@ -1,0 +1,9 @@
+flask
+psycopg2-binary
+playwright
+gunicorn
+flask_sqlalchemy
+alembic
+flask_migrate
+celery
+redis
